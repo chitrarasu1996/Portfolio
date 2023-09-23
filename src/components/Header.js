@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {FaBars,FaTimes} from "react-icons/fa"
 
-import {Link,animateScroll as scroll} from "react-scroll"
+import {Link} from "react-scroll"
 const Header = () => {
     const [nav,setNav]=useState(false)
     const links=[  
