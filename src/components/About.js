@@ -22,9 +22,9 @@ const About = () => {
      <p  className='flex flex-col'> 
      <p className='mt-3 text-2xl'> College: </p>
     <p> UG - Bachelor Of Commerce,</p> 
-  <p> Annamalai University Chidambaram
+  <p> Annamalai University Chidambaram,
 </p>
-      <p>June 2019 - March 2021</p>
+      <p>June 2019 - March 2021,</p>
 <p>Percentage - 65%</p>
 </p>
       </p>
@@ -34,10 +34,10 @@ const About = () => {
 <p  className='flex flex-col'> 
      <p className='text-2xl'>School: </p> 
     <p> 12th - Govt.Higher.Secondary.School,</p> 
-      Thirubuvanam
-      <p>June 2011 - March 2013</p>
-<p>Percentage - 65%</p>
-<p className='mt-1'><span className='text-2xl '>Email :</span> chitrarasumit@gmail.com</p>
+      Thirubuvanam,
+      <p>June 2011 - March 2013,</p>
+<p>Percentage - 65%,</p>
+<p className='mt-1'><span className='text-2xl '>Email :</span> chitrarasumit@gmail.com,</p>
 <p className='mt-1'><span className='text-2xl '>Mobile No :</span>8838929800</p>
 </p> 
 
