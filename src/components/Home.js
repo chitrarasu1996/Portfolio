@@ -11,7 +11,7 @@ const Home = () => {
      
       className=" sm:px-52 px-32  md:h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
-      <div  className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full  md:flex-row">
+      <div  className=" gap-5 mx-auto flex flex-col items-center justify-center h-full  md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 style={{marginTop:"50px",paddingTop:"50px"}} className="text-4xl  sm:text-7xl font-bold text-white">
             I'm a Full Stack Developer
@@ -39,11 +39,10 @@ const Home = () => {
 
         <div>
           <img
-       
           
-            src={hero}
+           src={hero}
             alt="my profile"
-            className="my-img ms-3 rounded-2xl mx-auto  md:w-full"
+            className="my-img  rounded-2xl   md:w-full"
           />
         </div>
       </div>

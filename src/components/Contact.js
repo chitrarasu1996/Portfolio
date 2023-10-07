@@ -2,7 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div name="contact" className=' sm:px-52 px-32 w-full  text-white h-screen bg-gradient-to-b from-black to-gray-800 '>
+    <div
+    style={{paddingTop:"90px"}} 
+    name="contact" className=' sm:px-52 px-32 w-full  text-white h-screen bg-gradient-to-b from-black to-gray-800 '>
         <div className='flex flex-col justify-center max-w-screen-lg mx-auto h-full'>
             <div className='pb-6'>
                <p className='font-bold  text-4xl border-b-4 inline border-gray-400'>Contact</p>
@@ -24,7 +26,7 @@ const Contact = () => {
                </textarea>
                <button type='submit' className='
                bg-gradient-to-b rounded-md flex 
-               items-center from-cyan-200 px-4 py-3 my-6 mx-auto
+               items-center from-cyan-200 px-4  my-6 mx-auto
                 text-white to-blue-500 duration-500 hover:scale-105'>Let's Talk</button>
                 </form> 
             </div>

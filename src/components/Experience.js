@@ -72,16 +72,16 @@ style:"shadow-green-500"
 ]
     return (
 
-    <div name="experience" style={{height:"100%"}} className='text-white py-32  h-screen w-full bg-gradient-to-b from-gray-800 to-black'>
-        <div className='pb-32 sm:px-52 px-32 max-w-screen w-full h-full flex flex-col justify-center  p-4 mx-auto'>
+    <div name="skills" style={{height:"100%"}} className='text-white py-32  h-screen w-full bg-gradient-to-b from-gray-800 to-black'>
+        <div className='pb-32 sm:px-52 px-20 max-w-screen w-full h-full flex flex-col justify-center  p-4 mx-auto'>
             <div >
-                <p className='border-b-4 inline font-bold text-4xl border-gray-500'>Experience</p>
+                <p className='border-b-4 inline font-bold text-4xl border-gray-500'>Skills</p>
                 <p className='py-6'>These Are the Technologies I've worked</p>
             </div>
             <div  className='grid  grid-cols-2 py-6 px-15 sm:grid-cols-3 gap-8 text-center'>
                
                {techs.map(({id,src,title,style})=>(
- <div key={id} className={' shadow-md hover:scale-105 duration-500 rounded-lg '+style}>
+ <div style={{width:"150px"}} key={id} className={'shadow-md hover:scale-105 duration-500 rounded-lg '+style}>
  <img className='tech-img  mx-auto mt-2  rounded-md' src={src} alt='tech-img'/>
  <p className='mt-3'>{title}</p>
  </div>

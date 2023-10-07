@@ -7,18 +7,24 @@ const Portfolio = () => {
     const projectImages=[
         {
             id:1,
+            alt:"e-commerce",
             src:flipkart,
+            tittle:"E-Commerce Application",
             ref:"https://ecommerce-shop-123.netlify.app/",
             code:"https://github.com/chitrarasu1996/e-commerce.git"
         },
         {
             id:2,
+            alt:"realtime-chatapp",
+            tittle:"Realtime-chatApp",
             src:chatapp,
             ref:"https://chattify-app.netlify.app",
             code:"https://github.com/chitrarasu1996/chat-app-frontend.git"
         },
         {
             id:3,
+            alt:"gmail-clone",
+            tittle:"Gmail-clone",
             src:gmail,
             ref:"https://gmail-colone.netlify.app",
             code:"https://github.com/chitrarasu1996/gmail-clone-frontend.git"
@@ -26,6 +32,8 @@ const Portfolio = () => {
     ,
     {
         id:4,
+        alt:"web-scraping",
+        tittle:"web-scraping",
         src:webscrap,
         ref:"https://web-scraping-123.netlify.app/",
         code:"https://github.com/chitrarasu1996/frontend-webscraping.git"
@@ -46,11 +54,12 @@ some of my work here
         
         </div>
 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8
-px-12 sm:px-0'>
-    {projectImages.map(({id,src,ref,code})=>(
-        <div key={id} className=' shadow-md shadow-gray-600 rounded-lg'>
+ sm:px-0'>
+    {projectImages.map(({id,src,ref,code,tittle,alt})=>(
+        <div style={{width:"200px"}} key={id} className='imag-wrapper shadow-md shadow-gray-600 rounded-lg'>
         <img
-        className='rounded-md duration-100 hover:scale-105' src={src} alt='flikart'/>
+        className='rounded-md duration-100 hover:scale-105' src={src} alt={alt}/>
+      <a href={ref}> <p className='text-center mt-2 cursor-pointer duration-105 hover:scale-105'>{tittle}</p></a>
         <div className='flex items-center justify-center'>
         <a href={ref}><button className='duration-105 hover:scale-105 w-1/2 px-4 py-6 mx-3'>Demo</button></a>  
        <a href={code}> <button className='duration-105 hover:scale-105 w-1/2 px-4 py-6 mx-3'>Code</button> </a>

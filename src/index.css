@@ -10,11 +10,11 @@ overflow-y: auto !important;
 }
 img{
   height: 160px !important;
-  width: 330px !important;
+  width: 200px !important;
 }
 .my-img{
   height: 250px !important;
-  width: 300px !important;
+width: 350px !important;
 }
 *{
   margin: 0;
