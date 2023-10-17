@@ -68,7 +68,7 @@ some of my work here
         <img
   
         className='rounded-md duration-100 hover:scale-105 ' src={src} alt={alt}/>
-      <a href={ref} target="_blank"> <p className='text-center mt-2 cursor-pointer duration-105 hover:scale-105 py-1 font-bold'>{tittle}</p></a>
+      <a href={ref} rel='noreferrer' target="_blank"> <p className='text-center mt-2 cursor-pointer duration-105 hover:scale-105 py-1 font-bold'>{tittle}</p></a>
       
        <div className='ms-1 ps-2 pe-1' style={{maxHeight:"80px"}}><span className='font-semibold'>Tech Stack : </span> {stack}</div>
         <div className='flex items-center justify-center'>
