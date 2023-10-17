@@ -27,7 +27,7 @@ const SocialLinks = () => {
                 <> resume <BsFillPersonLinesFill size={30} /></>
              
             ),
-            href:resume ,
+            href:resume,
             style:"rounded-br-md",
         
             }

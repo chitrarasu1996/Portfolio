@@ -73,7 +73,7 @@ some of my work here
        <div className='ms-1 ps-2 pe-1' style={{maxHeight:"80px"}}><span className='font-semibold'>Tech Stack : </span> {stack}</div>
         <div className='flex items-center justify-center'>
         <a href={ref} target={target}><button className='duration-105 hover:scale-105 w-1/2 px-4 py-6 mx-3'>Demo</button></a>  
-       <a href={code}> <button className='duration-105 hover:scale-105 w-1/2 px-4 py-6 mx-3'>Code</button> </a>
+       <a href={code} target={target}> <button className='duration-105 hover:scale-105 w-1/2 px-4 py-6 mx-3'>Code</button> </a>
         </div>
       
       </div>
