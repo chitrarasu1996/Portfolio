@@ -29,7 +29,7 @@ const SocialLinks = () => {
             ),
             href:resume ,
             style:"rounded-br-md",
-          href:"https://drive.google.com/file/d/1qOUOSfSoUnLmfPc-F4xCTMmMM_yEiyDe/view?usp=sharing"
+        
             }
 ]
     return (
