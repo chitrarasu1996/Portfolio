@@ -29,7 +29,7 @@ const SocialLinks = () => {
             ),
             href:resume ,
             style:"rounded-br-md",
-            download:true
+          href:"https://drive.google.com/file/d/1qOUOSfSoUnLmfPc-F4xCTMmMM_yEiyDe/view?usp=sharing"
             }
 ]
     return (
@@ -41,7 +41,7 @@ const SocialLinks = () => {
  <a 
  rel='noreferrer'
  target='_blank'
- download={download} href={href} className='flex text-white justify-between items-center w-full'>
+  href={href} className='flex text-white justify-between items-center w-full'>
      <>
       {child}
      </>

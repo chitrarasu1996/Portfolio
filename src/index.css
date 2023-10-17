@@ -10,18 +10,16 @@ overflow-y: auto !important;
 }
 img{
   height: 160px !important;
-  width: 200px !important;
+  width: 220px !important;
 }
 .my-img{
-  height: 250px !important;
+height: 250px !important;
 width: 350px !important;
 }
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-
 }
 .tech-img{
   width: 100px !important;

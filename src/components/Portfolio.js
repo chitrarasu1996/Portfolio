@@ -8,15 +8,19 @@ const Portfolio = () => {
         {
             id:1,
             alt:"e-commerce",
+            tittle:"E-commerce Application",
+            target:"_blank",
             src:flipkart,
-            tittle:"E-Commerce Application",
+            stack:" E-Commerce Platform with MERN Stack.",
             ref:"https://ecommerce-shop-123.netlify.app/",
             code:"https://github.com/chitrarasu1996/e-commerce.git"
         },
         {
             id:2,
+            tittle:"Realtime Chatapp",
+            target:"_blank",
             alt:"realtime-chatapp",
-            tittle:"Realtime-chatApp",
+            stack:"Real-Time Chat App with Socket.io and MERN Stack",
             src:chatapp,
             ref:"https://chattify-app.netlify.app",
             code:"https://github.com/chitrarasu1996/chat-app-frontend.git"
@@ -26,6 +30,8 @@ const Portfolio = () => {
             alt:"gmail-clone",
             tittle:"Gmail-clone",
             src:gmail,
+            stack:"Gmail Clone with Node.js, Nodemailer, and MERN Stack",
+            target:"_blank",
             ref:"https://gmail-colone.netlify.app",
             code:"https://github.com/chitrarasu1996/gmail-clone-frontend.git"
         }
@@ -35,6 +41,8 @@ const Portfolio = () => {
         alt:"web-scraping",
         tittle:"web-scraping",
         src:webscrap,
+        stack:"Web Scraping Project with MERN Stack, Axios, and Cheerio",
+        target:"_blank",
         ref:"https://web-scraping-123.netlify.app/",
         code:"https://github.com/chitrarasu1996/frontend-webscraping.git"
         
@@ -55,13 +63,16 @@ some of my work here
         </div>
 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8
  sm:px-0'>
-    {projectImages.map(({id,src,ref,code,tittle,alt})=>(
-        <div style={{width:"200px"}} key={id} className='imag-wrapper shadow-md shadow-gray-600 rounded-lg'>
+    {projectImages.map(({id,src,ref,code,tittle,alt,target,stack})=>(
+        <div style={{width:"210px"}} key={id} className=' shadow-md shadow-gray-600 rounded-lg'>
         <img
-        className='rounded-md duration-100 hover:scale-105' src={src} alt={alt}/>
-      <a href={ref}> <p className='text-center mt-2 cursor-pointer duration-105 hover:scale-105'>{tittle}</p></a>
+  
+        className='rounded-md duration-100 hover:scale-105 ' src={src} alt={alt}/>
+      <a href={ref} target="_blank"> <p className='text-center mt-2 cursor-pointer duration-105 hover:scale-105 py-1 font-bold'>{tittle}</p></a>
+      
+       <div className='ms-1 ps-2 pe-1' style={{maxHeight:"80px"}}><span className='font-semibold'>Tech Stack : </span> {stack}</div>
         <div className='flex items-center justify-center'>
-        <a href={ref}><button className='duration-105 hover:scale-105 w-1/2 px-4 py-6 mx-3'>Demo</button></a>  
+        <a href={ref} target={target}><button className='duration-105 hover:scale-105 w-1/2 px-4 py-6 mx-3'>Demo</button></a>  
        <a href={code}> <button className='duration-105 hover:scale-105 w-1/2 px-4 py-6 mx-3'>Code</button> </a>
         </div>
       
